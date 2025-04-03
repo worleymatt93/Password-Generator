@@ -27,4 +27,4 @@ for number in range(0, password_length):
         random_symbol = random.randint(0, 8)
         symbol = symbols[random_symbol]
         password.append(symbol)
-print("".join(password))
+print(f"Your password is: {"".join(password)}")
